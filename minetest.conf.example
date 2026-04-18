@@ -1,0 +1,9 @@
+# Cave Game - Android Config
+keymap_dig = KEY_RBUTTON
+keymap_place = KEY_LBUTTON
+mg_name = v7
+fixed_map_seed = 1337
+enable_sound = false
+show_debug = false
+# Auto-select Cave Game on first launch
+main_menu_last_game_id = cavegame
