@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
     - name: Build APKs with Gradle
-      run: cd android; ./gradlew assembleDebug
+      run: cd android; chmod +x gradlew; ./gradlew assembleDebug
     - name: Save arm64 APK
       uses: actions/upload-artifact@v4
       with:
